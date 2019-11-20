@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    margin-left: 35%;
+}
+
+
+#button1{
+    font-size: 30px;
+    color:white;
+    background-color: black;
+}
+
+#button2{
+    font-size: 30px;
+    color:white;
+   background-color: green;
+}
+
+#button3{
+    font-size: 30px;
+    color:white;
+   background-color: gray;
+}
