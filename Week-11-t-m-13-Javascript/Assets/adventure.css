@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:white;
     margin-left: 35%;
 }
 
@@ -13,11 +13,25 @@ body{
 #button2{
     font-size: 30px;
     color:white;
-   background-color: green;
+   background-color: black;
 }
 
 #button3{
     font-size: 30px;
     color:white;
-   background-color: gray;
+   background-color: black;
+}
+
+#title{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+#description{
+    color:  white;
+    
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-right: 50px;
 }
