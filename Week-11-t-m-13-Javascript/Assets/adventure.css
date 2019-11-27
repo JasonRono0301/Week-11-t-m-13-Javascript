@@ -1,13 +1,14 @@
 body{
-    background-color:white;
+
     margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 #button1{
     font-size: 30px;
     color:white;
-    background-color: black;
+    background-color:black;
 }
 
 #button2{
@@ -23,15 +24,14 @@ body{
 }
 
 #title{
-    background-color: black;
     color: white;
-    width: 400px;
 }
 
 #description{
-    color:  white;
+    color: white;
     
-    font-size: 20px;
-    padding-bottom: 10px;
-    margin-right: 50px;
+}
+
+#game-buttons{
+    display: block;
 }
