@@ -52,9 +52,8 @@
         
         button3.style.display = "inline";
         button3.innerHTML = "Knop 3";
-
-        if()
     }
+    
     
     //gameover functions
 
