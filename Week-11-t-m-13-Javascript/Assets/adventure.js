@@ -29,36 +29,65 @@
     
 
     //Begin verhaal.
-    document.getElementById("button1").addEventListener("click", Begin);
+    button1.setAttribute('onclick','Intro()');
 
-    function Begin(){
+    function Intro(){
         document.body.style.backgroundImage = "url(Assets/RuimteVh/Intro1.jpg)";
         titel.innerHTML = "Intro Verhaal";
         uitleg.innerHTML = "Je zit in een shuttle die onderweg is naar een zwartgat en jou taak is om de shuttle terug te sturen naar Aarde maar de motor doen het niet.<br><br> Dus je moet in de shuttle zelf zoeken naar benodigheden om de motor te laten starten. <br><br> SUCCES!<br>";
         button1.innerHTML = "Druk om te beginnen"
-        document.getElementById("button1").addEventListener("click",level1);
+        button1.setAttribute("onclick","level1()");
     }
     
 
     //functions level1
     function level1(){
         document.body.style.backgroundImage = "url(Assets/RuimteVh/Shuttle.jpg)";
-        title.innerHTML = "level1";
-        uitleg.innerHTML = "Welkom bij level 1.<br><br> Er staan 3 knoppen voor je 1 van de knoppen zorgt ervoor dat de deur achter je open gaat en de andere 2 zorgen ervoor dat de shuttle het zwartgat word in gestuurd.<br><br>Welke knop ga je kiezen?";
+    
+        title.innerHTML = "Level 1";
+        uitleg.innerHTML = "Je zit in de cockpit van de shuttle zelf en achter je zit de deur op slot je kunt de deur openen door 1 van de knoppen voor je te drukken waardoor de deur achter je open gaat. <br><br> 1 knop maakt de deur open en de andere 2 laat het schip ontploffen. <br><br> Welke knop ga je drukken?";
+
         button1.innerHTML = "Knop 1";
-       
-        button2.style.display = "inline";
         button2.innerHTML = "Knop 2";
-        
-        button3.style.display = "inline";
         button3.innerHTML = "Knop 3";
+
+        button1.style.display = "inline-block";
+        button2.style.display = "inline-block";
+        button3.style.display = "inline-block";
+
+      
     }
     
-    
-    //gameover functions
+    //Gameover function
+  
+
+
+
+    function level2(){
+        document.body.style.backgroundImage = "url(Assets/RuimteVh/RuimteGang.jpg)";
+
+        titel.innerHTML = "Level 2";
+        uitleg.innerHTML = "Je bent door de deur heen en je bevindt je nu in een donkere gang met een andere deur aan de overkant maar je ziet dat je een swipe card ervoor nodig hebt.<br> De swipe card zit in 1 van de 3 kamer rechts van je.<br><br>Welke deur ga je kiezen? ";
+        
+        var lvl2btn1 = button1;
+        var lvl2btn2 = button2;
+        var lvl2btn3 = button3;
+
+        lvl2btn2.style.display = "inline-block";
+        lvl2btn3.style.display = "inline-block";
+        
+        lvl2btn1.innerHTML = "Kamer 1";
+        lvl2btn2.innerHTML = "Kamer 2";
+        lvl2btn3.innerHTML = "Kamer 3";
+
+        
+    }
 
     
 
+
     
+
+
     
     
