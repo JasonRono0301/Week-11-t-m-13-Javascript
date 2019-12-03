@@ -25,13 +25,17 @@ body{
 
 #title{
     color: white;
+   
 }
 
 #description{
     color: white;
+    padding-bottom: 10px;
+    background: black;
     
 }
 
 #game-buttons{
     display: block;
 }
+
